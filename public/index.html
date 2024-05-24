@@ -3,30 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
+  
+
   <title>UV Index Checker</title>
 </head>
 <body>
   <div class="container">
     <h1>UV Index</h1>
-    <h6>Sunscreen is essential in preventing the development of skin cancer. Insert your location to check whether the UV rays are strong enough to require sunscreen.</h6>
+    <h6>Suncreen is essential in preventing the development of skin cancer. Insert your location to check whether the UV rays are strong enough to require sunscreen.</h6>
     <form id="locationForm" class="form">
       <div class="form-group">
         <label for="latitude">Latitude:</label>
         <input type="text" id="latitude" name="latitude" required>
       </div>
       <div class="form-group">
-        <label for="longitude">Longitude:</label>
-        <input type="text" id="longitude" name="longitude" required>
+        <label for = "longitude"> Longitude: </label>
+        <input type = "text" id="longitude" name="longitude" required>
       </div>
       <button type="submit" class="btn">Check UV Index</button>
     </form>
-    <div id="uv-info" class="hidden">
-      <p>Current UV Index: <span id="uvIndex">Loading...</span></p>
+    <div id = "uv-info" class= "hidden">
+      <p>Current UV Index: <span id="uvIndex"> Loading.. .</span> </p>
       <p id="sunscreenMessage"></p>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  <script src="/script.js"></script>
+  <script src="script.js"></script>
 </body>
-</html>
+</htm
