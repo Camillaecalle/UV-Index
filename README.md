@@ -1,1 +1,1 @@
-Used the OpenUV api to make a website that recommends when to wear sunscreen based on your location. The api I am fetching from returns the UV index based on longitude and latitude.
+Uses the OpenUV API to make a website that recommends when to wear sunscreen based on your location. The API fetched from returns the UV index based on longitude and latitude. Following the guidelines this website uses axios, EJS for templating, and follows a structured and organized file format.
