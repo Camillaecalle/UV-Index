@@ -66,9 +66,9 @@ input {
 
 #uv-info {
   margin-top: 20px;
-  display: none; /* Start hidden */
+  display: none;
 }
 
 #uv-info.visible {
-  display: block; /* Make visible when data is loaded */
+  display: block;
 }
